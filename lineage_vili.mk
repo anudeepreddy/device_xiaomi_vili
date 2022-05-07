@@ -1,7 +1,7 @@
-#$(call inherit-product, device/xiaomi/haydn/device.mk)
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+#$(call inherit-product, device/xiaomi/vili/device.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := aosp_vili
+PRODUCT_NAME := lineage_vili
 PRODUCT_DEVICE := vili
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Xiaomi
